@@ -36,7 +36,16 @@ body {
   height: auto;
   align-self: center;
   margin: 0 50px;
-  transform: scale(.25);
+  /* transform: scale(.25); */
+}
+
+.container:active {
+  transform: scale(0.25);
+  transition: 4s ease-in-out;
+}
+
+.container:hover {
+  cursor: pointer;
 }
 
 ul {
